@@ -1,3 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="registr.php" class="form__success">
+        <h1 class="title__success">Sowwy</h1>
+        <h1 class="title">&#9786</h1>
+        <a type="submit" class="fail-btn" href="index.html">Try Again</a>
+    </form>
+</body>
+</html>
 <?php
 session_start();
 
@@ -29,6 +46,5 @@ if ($result->fetchArray(SQLITE3_ASSOC)) {
 } else {
     // Учетные данные неверны
     $db->close();
-    echo 'Invalid username or password.';
 }
 ?>
