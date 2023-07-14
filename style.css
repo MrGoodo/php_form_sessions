@@ -1,0 +1,260 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+  background-image: url("back_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 465px;
+  padding: 20px;
+  width: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.title {
+  color: #eee;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+label {
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.login-btn {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 16px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+  background: rgba(67, 104, 229, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-btn:active {
+  background-color: rgba(67, 104, 229, 0.45);
+}
+
+.registration-btn {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 20px;
+  width: 100%;
+  outline: 0;
+  text-align: center;
+  background: rgba(67, 104, 229, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-decoration: none;
+}
+
+.registration-btn:active {
+  background-color: rgba(67, 104, 229, 0.45);
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 30px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.placeholder {
+  color: #65657b;
+  font-family: "Nunito", sans-serif;
+  left: 20px;
+  line-height: 12px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+/*==============================================LOGIN FORM=====================================*/
+
+.title__dashboard {
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.paragraph__dashboard {
+  text-align: center;
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 120px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  background: rgba(67, 104, 229, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.logout-btn:active {
+  background-color: rgba(67, 104, 229, 0.45);
+}
+
+/*==============================================REGISTRATION FORM=====================================*/
+
+.form__registration {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 355px;
+  padding: 20px;
+  width: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form__success {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 255px;
+  padding: 20px;
+  width: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.success-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 50px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  background: rgba(67, 104, 229, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.title__success {
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fail-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  background: rgba(67, 104, 229, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
