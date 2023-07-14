@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <form method="POST" action="login.php" class="form">
+      <h2 class="title">Login Form</h2>
+      <label for="username">Username:</label>
+      <input
+        class="input"
+        type="text"
+        name="username"
+        id="username"
+        placeholder=" "
+        required
+      /><br /><br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        class="input"
+        placeholder=" "
+        required
+      /><br /><br />
+
+      <input type="submit" class="login-btn" value="Login" />
+      <a href="registration.php" class="registration-btn">Registration</a>
+    </form>
+  </body>
+</html>
